@@ -149,7 +149,7 @@ from sklearn.compose import make_column_selector
 
 def pregunta_01(): 
     """ 
-    En esta función se realizará la carga de datos. 
+    En esta función se realiza la carga de datos. 
     """ 
     # Lea el archivo german.csv y asignelo al DataFrame df 
     df = pd.read_csv("german.csv", sep = ',',thousands = None,decimal = '.', encoding="latin-1") 
